@@ -1,7 +1,8 @@
 #include <iostream>
+#include <string>
 
 auto main() -> int {
-    std::wcout << "Hello World!\n";
-    std::wcin.ignore();
+    std::wcout << "What is your name?\n";
+    system("pause");
     return 0;
 }
